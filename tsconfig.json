@@ -1,0 +1,10 @@
+{
+  "include": ["mod.ts"],
+  "exclude": [],
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "module": "esnext",
+    "moduleResolution": "node"
+  }
+}

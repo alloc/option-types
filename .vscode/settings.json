@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "rewrap.wrappingColumn": 70,
+  "prettier.semi": false,
+  "prettier.singleQuote": true
+}
