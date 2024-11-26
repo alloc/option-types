@@ -35,3 +35,11 @@ export type OptionalKeys<T extends object> = keyof T extends infer K
 export type Option<T> =
   | (T extends ExtractObject<T> ? Options<T> : T)
   | undefined
+
+/**
+ * Ensure each optional property can be assigned an `undefined` value.
+ * Nested object types are not affected.
+ */
+export type ShallowOptions<T extends object> = {
+  [K in keyof T]: T[K] | (K extends OptionalKeys<T> ? undefined : never)
+}

@@ -23,3 +23,7 @@ When an object type is itself required, but it contains optional properties, thi
 ### `OptionalKeys<T>`
 
 Extract the keys of an object type that are optional. Note that a key is only considered “optional” if it was defined with a `?` in the type definition.
+
+### `ShallowOptions<T>`
+
+Ensure each optional property can be assigned an `undefined` value. Nested object types are not affected.
