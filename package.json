@@ -1,7 +1,7 @@
 {
   "name": "option-types",
   "description": "Utility types for options",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Alec Larson",
   "main": "mod.js",
   "types": "mod.d.ts",
